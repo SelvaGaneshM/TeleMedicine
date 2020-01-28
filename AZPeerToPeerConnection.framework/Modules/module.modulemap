@@ -1,0 +1,11 @@
+framework module AZPeerToPeerConnection {
+  umbrella header "AZPeerToPeerConnection-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AZPeerToPeerConnection.Swift {
+    header "AZPeerToPeerConnection-Swift.h"
+    requires objc
+}
